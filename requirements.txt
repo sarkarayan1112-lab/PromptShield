@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+fastapi
+uvicorn
+requests
+huggingface_hub
+pyarrow
