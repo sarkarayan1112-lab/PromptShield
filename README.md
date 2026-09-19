@@ -60,6 +60,7 @@ Risk Score Calculation
 Security Decision
      ↓
 ALLOW / REVIEW / BLOCK
+```
 ## Model Performance
 
 PromptShield was evaluated on a labeled test dataset.
@@ -94,6 +95,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
 
 ## Screenshots
 
