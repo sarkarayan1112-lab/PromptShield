@@ -94,3 +94,33 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
+## Screenshots
+
+### Normal Prompt
+
+![Normal DNS Prompt](documentation/screenshots/01_normal_dns.png)
+
+### Direct Prompt Injection
+
+![Direct Injection](documentation/screenshots/02_direct_injection.png)
+
+### Role Manipulation
+
+![Role Manipulation](documentation/screenshots/03_role_manipulation.png)
+
+### Context Manipulation
+
+![Context Manipulation](documentation/screenshots/04_context_manipulation.png)
+
+### System Prompt Extraction
+
+![System Prompt Extraction](documentation/screenshots/05_system_prompt_extraction.png)
+
+### Instruction Override
+
+![Instruction Override](documentation/screenshots/06_instruction_override.png)
+
+### Evaluation — Confusion Matrix
+
+![Confusion Matrix](documentation/screenshots/07_confusion_matrix.png)
