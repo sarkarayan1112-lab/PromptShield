@@ -6,6 +6,11 @@ PromptShield is a Python-based security system for detecting and assessing poten
 
 It combines machine-learning classification with rule-based detection to analyze prompts, calculate a risk score, identify attack categories, and generate a security decision.
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikit-learn)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ### Security Decisions
 
 - **ALLOW** — Low-risk prompt
