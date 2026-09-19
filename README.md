@@ -60,3 +60,37 @@ Risk Score Calculation
 Security Decision
      ↓
 ALLOW / REVIEW / BLOCK
+## Model Performance
+
+PromptShield was evaluated on a labeled test dataset.
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 95.54% |
+| Precision | 95.21% |
+| Recall | 97.28% |
+| F1 Score | 96.24% |
+
+### Confusion Matrix
+
+The evaluation produced the following results:
+
+- True Negative: 363
+- False Positive: 27
+- False Negative: 15
+- True Positive: 537
+
+See the evaluation output in `results/` and the documented screenshots in `documentation/screenshots/`.
+
+## Installation
+
+Clone the repository and create a virtual environment:
+
+```bash
+git clone https://github.com/sarkarayan1112-lab/PromptShield.git
+cd PromptShield
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
